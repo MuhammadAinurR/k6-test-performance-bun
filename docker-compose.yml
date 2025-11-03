@@ -15,8 +15,8 @@ services:
     deploy:
       resources:
         limits:
-          cpus: "16.0"      # Limit to 16 CPU cores
-          memory: 16G        # Limit to 8 GB RAM
+          cpus: "1.0"      # Limit to 1 CPU core
+          memory: 256M        # Limit to 256 MB RAM
         reservations:
           cpus: "0.5"
           memory: 128M
